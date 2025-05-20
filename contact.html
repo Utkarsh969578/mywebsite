@@ -1,60 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Utakarsh Classes: Get in touch with us by phone, email, or send us a message.">
-  <meta name="keywords" content="contact Utakarsh Classes, phone, email, coaching institute">
-  <title>Utakarsh Classes - Contact</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <input type="text" name="phone" placeholder="Your Phone Number">
+  <textarea name="message" placeholder="Your Message or Query" required></textarea>
 
-  <!-- Navigation Bar -->
-  <nav>
-    <div class="logo">
-      <span class="logo-icon"></span>Utakarsh Classes
-    </div>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="courses.html">Courses</a></li>
-      <li><a href="admission.html">Admission</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <!-- Optional hidden inputs -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="box">
 
-  <!-- Contact Form -->
-  <section id="contact">
-    <h1>Contact Us</h1>
-    <p>We'd love to hear from you! Reach out with any questions or feedback.</p>
-    <form>
-      <label for="cname">Name *</label>
-      <input type="text" id="cname" name="cname" required>
-
-      <label for="cemail">Email *</label>
-      <input type="email" id="cemail" name="cemail" required>
-
-      <label for="message">Message *</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-
-      <button type="submit" class="btn btn-primary">Send Message</button>
-    </form>
-
-    <div class="contact-info">
-      <p><strong>Phone:</strong> +919648889185 +917458889185</p>
-      <p><strong>Email:</strong> <a href="mailto:utkarshdubey20017@gmail.com">utkarshdubey20017@gmail.com</a></p>
-      <p><strong>Address:</strong> Singhadiya chauraha, kunraghat Gorakhpur,(273008) Uttar Pradesh, India</p>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Utakarsh Classes. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+  <button type="submit">Send Message</button>
+</form>
